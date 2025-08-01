@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>UAH Stats Lab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAH Stats Lab</title>
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+        onload="renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false}
+            ]
+        });">
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to the UAH Stats Lab!</h1>
+    <div class="logo">
+        <h1>UAH Stats Lab</h1>
+        <p>This is a website template that will be filled in later.</p>
+    </div>
+
+    <h2>About Us</h2>
+    <p>We focus on all areas of statistics and data science.</p>
+
+    <h2>HTML-based LaTeX Examples using "KaTeX":</h2>
+    <p>Inline math example: $E = mc^2$</p>
+    <p>Display math example:</p>
+    <p>$$
+    \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}
+    $$</p>
+
+    <h2>Upcoming Conference</h2>
+    <p>Join us for an astrostatistics conference <a href="/sys2025">sys2025</a> this Fall!</p>
+
+    <footer>
+        <p>© 2025 UAH Stats Lab | Contact: uahstatslab [at] gmail [dot] com</p>
+    </footer>
 </body>
 </html>
